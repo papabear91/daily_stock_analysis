@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - [改进] 设置项帮助窗口支持键盘焦点限制、Esc 关闭和关闭后焦点恢复，并移除短描述重复 hover tooltip。
 - [文档] 新增设置页配置帮助维护说明，明确帮助元数据字段、首批覆盖范围、事实源和多语言文案同步规则。
 - [测试] 补充设置项帮助元数据、API schema、前端弹窗交互测试，并修复 Bot 名称路由与调度时间 provider 测试的离线 CI 稳定性问题。
+- [新功能] 新增 `alpha_lens_expma60` 策略技能，将“前期攻击放量 + 缩量回调 EXPMA60 + 近线横住 + 红长绿短”的阿尔法透镜买点过滤规则迁移为可配置 YAML 策略。
 
 ## [3.15.0] - 2026-05-05
 
